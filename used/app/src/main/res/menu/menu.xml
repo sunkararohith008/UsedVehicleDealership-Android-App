@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.google.usedvehicledealership.MainActivity">
+    <item
+        android:id="@+id/add_record"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:title="Add String"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_sold"
+        android:title="Show Sold Vehicles"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/action_available_vehicles"
+        android:title="Show Available Vehicles"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/action_company_details"
+        android:title="Company Details"
+        app:showAsAction="never"></item>
+</menu>
